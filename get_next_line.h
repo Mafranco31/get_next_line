@@ -6,7 +6,7 @@
 /*   By: mafranco <mafranco@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/26 21:10:12 by mafranco          #+#    #+#             */
-/*   Updated: 2023/07/26 21:10:17 by mafranco         ###   ########.fr       */
+/*   Updated: 2023/08/26 20:19:19 by mafranco         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,10 @@
 # include <unistd.h>
 # include <stdlib.h>
 # include <stdio.h>
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 20
+# endif
 
 char	*my_malloc(size_t nbytes, size_t size);
 
