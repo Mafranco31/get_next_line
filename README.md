@@ -11,5 +11,13 @@ Each time the function is called in a program, it will return the next line. Tha
 ## Installation
 
 ```bash
-git clone 
+git clone https://github.com/Mafranco31/get_next_line.git
 ```
+
+## Use
+
+Include the file [get_next_line.h](./get_next_line.h) in your file and you can use the get_next_line function !
+
+Its prototype is :
+
+char	*get_next_line(int fd);
